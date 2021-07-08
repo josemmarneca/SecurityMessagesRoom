@@ -4,8 +4,8 @@ import sys
 import requests
 app = Flask(__name__)
 
-ACCESS_TOKEN_DXNET_IO= "NGE5YzM1NjQtY2RjOC00ZDI3LWI2MDYtMTRmZjQxMzJmNTAyMzViZWU3OTQtZTcy_PF84_de3592e1-72ae-4383-8113-fa1bd7221909" #Replace None with your access token between quotes.
-MAIN_ROOM_ID="Y2lzY29zcGFyazovL3VzL1JPT00vMGMwZWQ1ZDAtYWE3MC0xMWViLTk1MzUtYjM2OTFmNWQyM2U5"
+ACCESS_TOKEN_DXNET_IO= "" #Replace None with your access token between quotes.
+MAIN_ROOM_ID=""
 
 def getWebexTeamsHeader():
     accessToken_hdr = 'Bearer ' + ACCESS_TOKEN_DXNET_IO

@@ -3,8 +3,8 @@ import sys
 import requests
 
 #MISSION: FILL IN THE REQUESTED DETAILS
-ACCESS_TOKEN = "OGY1MjNmZjYtNmUyYS00ZTlhLWFlM2MtNTFiZmRkMTBhNjJmMjRmNzUyNWMtMTMw_PF84_d271076d-2eb0-42d9-a748-a369ce92b135" #Replace None with your access token between quotes.
-BOT_ID = "Y2lzY29zcGFyazovL3VzL1BFT1BMRS81MDI5Mjg4YS00OWEzLTQ3MTctYjUyMy0yYWUzYzQyNjg1M2I"
+ACCESS_TOKEN = "" #Replace None with your access token between quotes.
+BOT_ID = ""
 
 
 #sets the header to be used for authentication and data format to be sent.
@@ -137,7 +137,7 @@ if __name__ == '__main__':
     #createRoom(getWebexTeamsHeader(), "Dxnet_Devnet2021")
 
 
-    roomId = "OGY1MjNmZjYtNmUyYS00ZTlhLWFlM2MtNTFiZmRkMTBhNjJmMjRmNzUyNWMtMTMw_PF84_d271076d-2eb0-42d9-a748-a369ce92b135"
+    roomId = ""
 
 
     # TODO: Create webbhook
